@@ -1,0 +1,37 @@
+{
+  "name": "echo-plugin",
+  "version": "0.1.0",
+  "description": "A simple echo Orbit plugin",
+  "type": "module",
+  "main": "dist/index.js",
+  "keywords": ["openclaw", "plugin", "orbit"],
+  "license": "ISC",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "tsc -p tsconfig.build.json",
+    "orbit:publish": "orbit-publish"
+  },
+  "dependencies": {
+    "@orbit-0g/sdk": "^0.1.19",
+    "@sinclair/typebox": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "openclaw": "latest",
+    "typescript": "latest"
+  },
+  "peerDependencies": {
+    "openclaw": ">=2026.2.0"
+  },
+  "openclaw": {
+    "extensions": ["./index.ts"],
+    "compat": {
+      "pluginApi": ">=2026.3.24-beta.2",
+      "minGatewayVersion": "2026.3.24-beta.2"
+    },
+    "build": {
+      "openclawVersion": "2026.3.24-beta.2",
+      "pluginSdkVersion": "2026.3.24-beta.2"
+    }
+  }
+}

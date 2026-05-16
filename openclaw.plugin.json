@@ -1,0 +1,24 @@
+{
+  "id": "echo-plugin",
+  "name": "Echo",
+  "description": "Echoes back a message — simple Orbit billing test plugin",
+  "orbit": {
+    "billing": true
+  },
+  "activation": {
+    "onStartup": true
+  },
+  "contracts": {
+    "tools": ["echo_message"]
+  },
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "privateKey": {
+        "type": "string",
+        "description": "Wallet private key for Orbit billing (0x + 64 hex chars)"
+      }
+    }
+  }
+}
