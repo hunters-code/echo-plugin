@@ -4,7 +4,11 @@
   "description": "A simple echo Orbit plugin",
   "type": "module",
   "main": "dist/index.js",
-  "keywords": ["openclaw", "plugin", "orbit"],
+  "keywords": [
+    "openclaw",
+    "plugin",
+    "orbit"
+  ],
   "license": "ISC",
   "scripts": {
     "typecheck": "tsc --noEmit",
@@ -12,7 +16,7 @@
     "orbit:publish": "orbit-publish"
   },
   "dependencies": {
-    "@orbit-0g/sdk": "^0.1.21",
+    "@orbit-0g/sdk": "^0.1.22",
     "@sinclair/typebox": "latest"
   },
   "devDependencies": {
@@ -24,7 +28,9 @@
     "openclaw": ">=2026.2.0"
   },
   "openclaw": {
-    "extensions": ["./index.ts"],
+    "extensions": [
+      "./index.ts"
+    ],
     "compat": {
       "pluginApi": ">=2026.3.24-beta.2",
       "minGatewayVersion": "2026.3.24-beta.2"

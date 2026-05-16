@@ -2,16 +2,19 @@
   "id": "echo-plugin",
   "name": "Echo",
   "description": "Echoes back a message — simple Orbit billing test plugin",
-  "pricePerInstallWei": "1000000000000000",
+  "pricePerInstallWei": "0",
   "pricePerUsageWei": "100000000000000",
   "orbit": {
-    "billing": true
+    "billing": true,
+    "pluginId": ""
   },
   "activation": {
     "onStartup": true
   },
   "contracts": {
-    "tools": ["echo_message"]
+    "tools": [
+      "echo_message"
+    ]
   },
   "configSchema": {
     "type": "object",
