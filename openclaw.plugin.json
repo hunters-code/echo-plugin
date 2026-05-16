@@ -2,6 +2,8 @@
   "id": "echo-plugin",
   "name": "Echo",
   "description": "Echoes back a message — simple Orbit billing test plugin",
+  "pricePerInstallWei": "1000000000000000",
+  "pricePerUsageWei": "100000000000000",
   "orbit": {
     "billing": true
   },
