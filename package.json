@@ -1,6 +1,6 @@
 {
   "name": "echo-plugin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple echo Orbit plugin",
   "type": "module",
   "main": "dist/index.js",
@@ -16,7 +16,7 @@
     "orbit:publish": "orbit-publish"
   },
   "dependencies": {
-    "@orbit-0g/sdk": "^0.1.22",
+    "@orbit-0g/sdk": "^0.1.23",
     "@sinclair/typebox": "latest"
   },
   "devDependencies": {

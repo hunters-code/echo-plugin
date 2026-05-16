@@ -11,9 +11,7 @@ export default definePluginEntry({
   name: "Echo",
   description: "Echoes back a message — simple Orbit billing test plugin",
   register(api) {
-    registerOrbitUserBilling(api as OrbitOpenClawPluginApi, {
-      pluginId: process.env.ORBIT_PLUGIN_ID,
-    });
+    registerOrbitUserBilling(api as OrbitOpenClawPluginApi);
 
     api.registerTool({
       name: "echo_message",
