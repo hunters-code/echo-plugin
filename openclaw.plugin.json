@@ -6,7 +6,7 @@
   "pricePerUsageWei": "100000000000000",
   "orbit": {
     "billing": true,
-    "pluginId": "0x665ecf62a3c4a866b0dfde358a1a4765b631497fb5b5af943a877b01f2ba4fba"
+    "pluginId": "0x5f02d8f23ab5168a67d79b1ac117f6c69d94417f5afae8e687399993d450ef39"
   },
   "activation": {
     "onStartup": true
